@@ -1,5 +1,6 @@
 import React from 'react';
 import Project from './Project';
+import Card from 'react-bootstrap/Card';
 
 function Portfolio() {
   const projects = [
@@ -28,13 +29,16 @@ function Portfolio() {
       <h2>My Projects</h2>
       <div className="project-list">
         {projects.map((project, index) => (
-          <Project
-            key={index}
-            title={project.title}
-            image={project.image}
-            deployedLink={project.deployedLink}
-            githubLink={project.githubLink}
-          />
+          <Card key={index}>
+            <Card.Body>
+              <Project
+                title={project.title}
+                image={project.image}
+                deployedLink={project.deployedLink}
+                githubLink={project.githubLink}
+              />
+            </Card.Body>
+          </Card>
         ))}
       </div>
     </section>
