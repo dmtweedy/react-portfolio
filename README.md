@@ -5,4 +5,4 @@ Welcome to my React Portfolio. The tech stack used to create this portfolio app 
 
 ![screenshot](https://github.com/dmtweedy/react-portfolio/assets/135908704/f32130b3-4500-4056-a24c-c72f7acef649)
 
-[Netlify Link](https://main--merry-lily-01012a.netlify.app/portfolio)
+[Netlify Link](https://main--merry-lily-01012a.netlify.app)
