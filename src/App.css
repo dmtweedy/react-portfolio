@@ -32,30 +32,94 @@
 
 /* about styles */
 
+.about-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 70px;
+  margin-bottom: 35px;
+}
 
+.about-content a {
+  text-decoration: none;
+  color: #209CEE;
+}
+
+.about-content a:hover {
+  color: blue;
+}
+
+.about-content p {
+  padding: 25px;
+}
 
 /* portfolio styles */
 
 .project-grid {
   display: grid;
-  grid-template-columns: 1fr; /* The first project takes the full width */
-  grid-gap: 20px; /* Adjust the gap between projects */
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
 }
 
 .big-project {
-  grid-column: span 2; /* This makes the first project span two grid columns */
+  grid-column: span 2;
+  border: none !important;
+  box-shadow: none;
+}
+
+.small-project {
+  border: none !important;
+  box-shadow: none;
 }
 
 /* For screens larger than a certain size, make it a 2-column grid */
 @media (min-width: 768px) {
   .project-grid {
-    grid-template-columns: 1fr 1fr; /* Two projects side by side */
+    grid-template-columns: 1fr 1fr;
   }
+}
+
+.big-project .card {
+  width: 100%;
+}
+
+.card-img {
+  width: 100%;
+  height: auto;
+}
+
+.card-body .card-title {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
 }
 
 /* contact styles */
 
+.content p {
+  margin-bottom: 5px;
+}
 
+.message {
+  margin-top: 5px;
+}
+
+.custom-button {
+  margin-top: 5px;
+  position: relative;
+  left: 70%;
+}
 
 /* footer styles */
 
