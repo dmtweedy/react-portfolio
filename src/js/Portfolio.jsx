@@ -1,20 +1,20 @@
 import React from 'react';
 import Project from './Project';
 import Card from 'react-bootstrap/Card';
-import MinneGrowtaImage from '../make-a-gift-slider.jpg';
-import KonsoomImage from '../screen-for-cinema.jpg';
-import BookshelfImage from '../ReferenceBooks.jpg';
+import MinneGrowtaImage from '../background-img.jpg';
+import KonsoomImage from '../konsoom.jpg';
+import BookshelfImage from '../book-icon.png';
 
 function Portfolio() {
   const projects = [
     {
       title: 'MinneGrowta',
       image: MinneGrowtaImage,
-      deployedLink: '',
+      deployedLink: 'https://minnegrowta-66ed74e127f3.herokuapp.com/',
       githubLink: 'https://github.com/laurbaur024/garden-planner',
     },
     {
-      title: 'konsoom',
+      title: 'Konsoom',
       image: KonsoomImage,
       deployedLink: 'https://johntg96.github.io/konsoom/',
       githubLink: 'https://github.com/johntg96/konsoom',

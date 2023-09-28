@@ -3,7 +3,8 @@ body {
 }
 
 h2 {
-  margin: 20px !important;
+  margin-top: 15px !important;
+  margin-bottom: 30px !important;
   font-weight: bold !important;
   color: white !important;
 }
@@ -32,8 +33,16 @@ p {
   color: green;
 }
 
+.header .navbar-brand:visited {
+  color: green;
+}
+
+.header .nav-link:visited {
+  color: green;
+}
+
 .header .nav-link:hover {
-  color: white;
+  color: turquoise !important;
 }
 
 .header .navbar-brand {
@@ -43,7 +52,7 @@ p {
 }
 
 .header .navbar-brand:hover {
-  color: white;
+  color: turquoise !important;
 }
 
 /* about styles */
@@ -60,15 +69,48 @@ p {
 .about-content a {
   text-decoration: none;
   font-weight: bold;
-  color: green;
+  color: rgb(19, 173, 19);
 }
 
 .about-content a:hover {
-  color: white;
+  color: turquoise;
 }
 
 .about-content p {
   padding: 25px;
+}
+
+.p1 {
+  border: 1.5px solid turquoise;
+  outline: 2px solid green;
+  border-radius: 5px;
+  margin: 0px;
+}
+
+.p2 {
+  border: 1.5px solid turquoise;
+  outline: 2px solid green;
+  border-radius: 5px;
+  margin: 0px;
+}
+
+.p3 {
+  border: 1.5px solid turquoise;
+  outline: 2px solid green;
+  border-radius: 5px;
+  margin: 0px;
+}
+
+.img-fluid {
+  border: 1.5px solid turquoise;
+  outline: 2px solid green;
+  border-radius: 5px;
+}
+
+.about-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 /* portfolio styles */
@@ -83,11 +125,13 @@ p {
   grid-column: span 2;
   border: none !important;
   box-shadow: none;
+  width: 720px;
 }
 
 .small-project {
   border: none !important;
   box-shadow: none;
+  width: 350px;
 }
 
 /* For screens larger than a certain size, make it a 2-column grid */
@@ -109,17 +153,43 @@ p {
 .card-body .card-title {
   font-weight: bold;
   font-size: 25px;
+  padding-top: 10px;
 }
 
 .card-body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 0px !important;
 }
 
 .button-container {
   display: flex;
   justify-content: space-between;
+  padding-top: 5px;
+  padding-bottom: 15px;
+}
+
+.button-container .btn-primary {
+  background-color: rgb(29, 32, 47) !important;
+  outline: 2px solid turquoise !important;
+}
+
+.button-container .btn-secondary {
+  background-color: rgb(29, 32, 47) !important;
+  outline: 2px solid green !important;
+}
+
+.button-container .btn-primary:hover {
+  color: turquoise;
+  background-color: rgb(72, 76, 94) !important;
+  outline: 2px solid rgb(134, 255, 243) !important;
+}
+
+.button-container .btn-secondary:hover {
+  color: rgb(18, 180, 18);
+  background-color: rgb(72, 76, 94) !important;
+  outline: 2px solid rgb(18, 180, 18) !important;
 }
 
 /* contact styles */
@@ -133,9 +203,28 @@ p {
 }
 
 .custom-button {
-  margin-top: 5px;
+  margin-top: 40px;
   position: relative;
-  left: 70%;
+  left: 32%;
+  background-color: rgb(29, 32, 47) !important;
+  outline: 2px solid turquoise !important;
+}
+
+.custom-button:hover {
+  color: turquoise !important;
+  background-color: rgb(72, 76, 94) !important;
+  outline: 2px solid rgb(134, 255, 243) !important;
+}
+
+.alert-box {
+  position: absolute;
+  top: 475px;
+  color: white;
+  background-color: rgb(72, 76, 94);
+  border-radius: 5px;
+  border: 1.5px solid turquoise;
+  outline: 2px solid green;
+  padding: 10px;
 }
 
 /* footer styles */
@@ -163,8 +252,12 @@ p {
   color: green;
 }
 
+.footer .nav-link:visited {
+  color: green !important;
+}
+
 .footer .nav-link:hover {
-  color: white;
+  color: turquoise !important;
 }
 
 .footer .navbar-text {

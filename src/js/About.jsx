@@ -2,7 +2,8 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import DamonTweedyImage from '../IMG_1247.jpg';
+import DamonTweedyImage from '../IMG_8984.jpg';
+import DamonKittyImage from '../IMG_8983.jpg';
 
 function About() {
   return (
@@ -11,20 +12,23 @@ function About() {
         <h2 className="text-center">About Me</h2>
         <Row>
           <Col xs={12} md={4}>
-            <img src={DamonTweedyImage} alt="Damon Tweedy" className="img-fluid"/>
+          <img src={DamonTweedyImage} alt="Damon Tweedy" className="img-fluid"/>
           </Col>
-          <Col xs={12} md={8}>
-            <p>
+          <Col className="about-container" xs={12} md={4}>
+            <p className="p1">
               Hi, I'm Damon Tweedy, a software developer with a niche for the front end.
               I have a certificate in Full-Stack Development from the University of Minnesota, and I've dived into building REACT sites, databases, backends, front ends, and much more.
             </p>
-            <p>
+            <p className="p2">
               What excites me most about tech is seeing the new things we can do every day when it comes to video games and entertainment. I'm very eager to learn about new tech and trends within the gamer industry.
               In my free time, I enjoy playing new/old video games and spending time with my friends and family.
             </p>
-            <p>
+            <p className="p3">
               You can download my resume <a href="src/resume.pdf" target="_blank" rel="noopener noreferrer">here</a>.
             </p>
+          </Col>
+          <Col xs={12} md={4}>
+          <img src={DamonKittyImage} alt="Damon Tweedy" className="img-fluid"/>
           </Col>
         </Row>
       </Container>
