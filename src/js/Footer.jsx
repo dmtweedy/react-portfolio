@@ -5,7 +5,7 @@ import Nav from 'react-bootstrap/Nav';
 function Footer() {
   return (
     <footer className="footer">
-      <Navbar bg="dark" variant="dark">
+      <Navbar>
         <Nav className="mr-auto">
           <Nav.Link href="https://github.com/dmtweedy" target="_blank" rel="noopener noreferrer">
             GitHub

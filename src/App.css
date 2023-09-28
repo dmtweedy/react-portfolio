@@ -1,3 +1,17 @@
+body {
+  background-color: rgb(29, 32, 47) !important;
+}
+
+h2 {
+  margin: 20px !important;
+  font-weight: bold !important;
+  color: white !important;
+}
+
+p {
+  color: white;
+}
+
 /* header styles */
 
 .header {
@@ -5,6 +19,8 @@
   top: 0;
   width: 100%;
   z-index: 2;
+  background-color: #002000;
+  border-bottom: 2px solid green;
 }
 
 .header .navbar-nav {
@@ -13,21 +29,21 @@
 }
 
 .header .nav-link {
-  color: white;
+  color: green;
 }
 
 .header .nav-link:hover {
-  color: greyy;
+  color: white;
 }
 
 .header .navbar-brand {
   margin-right: auto;
   margin-left: 3%;
-  color: white;
+  color: green;
 }
 
 .header .navbar-brand:hover {
-  color: greyy;
+  color: white;
 }
 
 /* about styles */
@@ -43,11 +59,12 @@
 
 .about-content a {
   text-decoration: none;
-  color: #209CEE;
+  font-weight: bold;
+  color: green;
 }
 
 .about-content a:hover {
-  color: blue;
+  color: white;
 }
 
 .about-content p {
@@ -133,6 +150,8 @@
   margin-top: auto;
   width: 100%;
   position: relative;
+  background-color: rgb(0, 32, 0);
+  border-top: 2px solid green;
 }
 
 .footer .navbar-nav {
@@ -140,11 +159,16 @@
   margin-left: 3%;
 }
 
+.footer .nav-link {
+  color: green;
+}
+
 .footer .nav-link:hover {
-  color: #209CEE;
+  color: white;
 }
 
 .footer .navbar-text {
   margin-left: auto;
   margin-right: 5%;
+  color: green;
 }

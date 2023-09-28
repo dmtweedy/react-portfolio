@@ -29,7 +29,7 @@ function Portfolio() {
 
   return (
     <section className="portfolio content">
-      <h2><strong>My Projects</strong></h2>
+      <h2>My Projects</h2>
       <div className="project-list">
       <div className="project-grid">
         {projects.map((project, index) => (

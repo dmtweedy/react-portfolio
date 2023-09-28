@@ -5,7 +5,7 @@ import Button from 'react-bootstrap/Button';
 function Contact() {
   return (
     <section id="contact" className="content">
-      <h2><strong>Contact</strong></h2>
+      <h2>Contact</h2>
       <p>If you're interested in working together, feel free to reach out to me.</p>
       <Form>
         <div className="row">

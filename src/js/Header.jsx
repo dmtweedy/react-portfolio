@@ -5,7 +5,7 @@ import Navbar from 'react-bootstrap/Navbar';
 function Header() {
   return (
     <header className="header">
-    <Navbar bg="primary" expand="lg">
+    <Navbar expand="lg">
       <Navbar.Brand href="/">Damon Tweedy</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">

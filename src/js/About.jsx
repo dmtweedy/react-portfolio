@@ -8,7 +8,7 @@ function About() {
   return (
     <section id="about" className="about-content">
       <Container>
-        <h2><strong>About Me</strong></h2>
+        <h2 className="text-center">About Me</h2>
         <Row>
           <Col xs={12} md={4}>
             <img src={DamonTweedyImage} alt="Damon Tweedy" className="img-fluid"/>
@@ -23,7 +23,7 @@ function About() {
               In my free time, I enjoy playing new/old video games and spending time with my friends and family.
             </p>
             <p>
-              You can download my resume <a href="/" target="_blank" rel="noopener noreferrer">here</a>.
+              You can download my resume <a href="src/resume.pdf" target="_blank" rel="noopener noreferrer">here</a>.
             </p>
           </Col>
         </Row>
