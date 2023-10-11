@@ -30,7 +30,7 @@ p {
 
 .header .navbar-nav {
   margin-left: auto;
-  margin-right: 8% !important;
+  margin-right: 10% !important;
 }
 
 .header .nav-link {
@@ -298,6 +298,7 @@ p {
 
   .footer .navbar-nav {
     text-align: center;
+    justify-content: center !important;
     margin: 0;
   }
 
@@ -333,5 +334,27 @@ p {
   
   .button-container .btn-secondary {
     margin-left: 1% !important;
+  }
+
+  .about-content {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+}
+
+@media (max-width: 991px) {
+  .header .navbar-nav {
+    text-align: center;
+  }
+
+  .header .nav-item {
+    justify-content: center !important;
+    display: inline-block;
+    margin: 0;
+  }
+
+  .nav-link {
+    justify-content: center !important;
+    margin-left: 10% !important;
   }
 }
