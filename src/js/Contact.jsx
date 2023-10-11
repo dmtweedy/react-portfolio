@@ -51,7 +51,7 @@ function Contact() {
     <section id="contact" className="content">
       <h2>Contact</h2>
       <p>If you're interested in working together, feel free to reach out to me.</p>
-      <Form onSubmit={handleSubmit}>
+      <Form className="contact-form" onSubmit={handleSubmit}>
         <div className="row">
           <Form.Group controlId="name" className="col-md-6">
             <Form.Label>Name:</Form.Label>

@@ -24,44 +24,44 @@ p {
   border-bottom: 2px solid green;
 }
 
-.nav-item {
+.header .nav-item {
   margin-right: 15%;
 }
 
-.navbar-nav {
+.header .navbar-nav {
   margin-left: auto;
   margin-right: 5%;
 }
 
-.nav-link {
-  color: green;
+.header .nav-link {
+  color: green !important;
   margin-left: 5%;
   white-space: nowrap;
 }
 
-.navbar-brand:visited {
+.header .navbar-brand:visited {
   color: green !important;
 }
 
-.nav-link:visited {
+.header .nav-link:visited {
   color: green !important;
 }
 
-.nav-link:hover {
+.header .nav-link:hover {
   color: turquoise !important;
 }
 
-.navbar-brand {
+.header .navbar-brand {
   margin-right: auto;
   margin-left: 3%;
   color: green;
 }
 
-.navbar-brand:hover {
+.header .navbar-brand:hover {
   color: turquoise !important;
 }
 
-.navbar-toggler {
+.header .navbar-toggler {
   margin-right: 3% !important;
 }
 
@@ -175,19 +175,24 @@ p {
 
 .button-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   padding-top: 5px;
   padding-bottom: 15px;
+  width: 100%;
 }
 
 .button-container .btn-primary {
   background-color: rgb(29, 32, 47) !important;
   outline: 2px solid turquoise !important;
+  margin-right: 5% !important;
+  white-space: nowrap;
 }
 
 .button-container .btn-secondary {
   background-color: rgb(29, 32, 47) !important;
   outline: 2px solid green !important;
+  margin-left: 5% !important;
+  white-space: nowrap;
 }
 
 .button-container .btn-primary:hover {
@@ -205,7 +210,7 @@ p {
 /* contact styles */
 
 .content p {
-  margin-bottom: 5px;
+  margin: 5px;
 }
 
 .message {
@@ -214,10 +219,11 @@ p {
 
 .custom-button {
   margin-top: 40px;
-  position: relative;
-  left: 32%;
   background-color: rgb(29, 32, 47) !important;
   outline: 2px solid turquoise !important;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .custom-button:hover {
@@ -273,5 +279,59 @@ p {
 .footer .navbar-text {
   margin-left: auto;
   margin-right: 5%;
-  color: green;
+  color: green !important;
+}
+
+@media (max-width: 768px) {
+  .footer .navbar-text {
+    display: none !important;
+  }
+
+  .footer .navbar-expand {
+    justify-content: center !important;
+    
+  }
+
+  .footer .nav-link {
+    margin: 0 10px;
+  }
+
+  .footer .navbar-nav {
+    text-align: center;
+    margin: 0;
+  }
+
+  .content p {
+    margin: 5px 20px;
+  }
+  
+  .contact-form {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  .project-grid {
+    display: block;
+    padding: 20px;
+  }
+
+  .project-grid .small-project {
+    /* Adjust the width as needed */
+    width: 100%;
+    margin-bottom: 20px; /* Add spacing between projects */
+  }
+
+  .project-grid .big-project {
+    /* Adjust the width as needed */
+    width: 100%;
+    margin-bottom: 20px; /* Add spacing between projects */
+  }
+
+  .button-container .btn-primary {
+    margin-right: 1% !important;
+  }
+  
+  .button-container .btn-secondary {
+    margin-left: 1% !important;
+  }
 }

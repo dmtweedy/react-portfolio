@@ -9,10 +9,10 @@ function Project({ title, image, deployedLink, githubLink }) {
       <Card.Body>
         <Card.Title>{title}</Card.Title>
         <div className="button-container">
-        <Button variant="primary" href={deployedLink} target="_blank" rel="noopener noreferrer" style={{ marginRight: '20px' }}>
+        <Button variant="primary" href={deployedLink} target="_blank" rel="noopener noreferrer">
           Deployed App
         </Button>
-        <Button variant="secondary" href={githubLink} target="_blank" rel="noopener noreferrer" style={{ marginLeft: '20px' }}>
+        <Button variant="secondary" href={githubLink} target="_blank" rel="noopener noreferrer">
           GitHub Repository
         </Button>
         </div>
