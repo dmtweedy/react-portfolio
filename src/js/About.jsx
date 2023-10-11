@@ -2,8 +2,8 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import DamonTweedyImage from '../IMG_8984.jpg';
-import DamonKittyImage from '../IMG_8983.jpg';
+import DamonTweedyImage from '../image0.jpeg';
+import DamonKittyImage from '../image1.jpeg';
 
 function About() {
   return (
