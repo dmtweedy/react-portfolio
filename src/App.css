@@ -24,35 +24,45 @@ p {
   border-bottom: 2px solid green;
 }
 
-.header .navbar-nav {
+.nav-item {
+  margin-right: 15%;
+}
+
+.navbar-nav {
   margin-left: auto;
   margin-right: 5%;
 }
 
-.header .nav-link {
+.nav-link {
   color: green;
+  margin-left: 5%;
+  white-space: nowrap;
 }
 
-.header .navbar-brand:visited {
-  color: green;
+.navbar-brand:visited {
+  color: green !important;
 }
 
-.header .nav-link:visited {
-  color: green;
+.nav-link:visited {
+  color: green !important;
 }
 
-.header .nav-link:hover {
+.nav-link:hover {
   color: turquoise !important;
 }
 
-.header .navbar-brand {
+.navbar-brand {
   margin-right: auto;
   margin-left: 3%;
   color: green;
 }
 
-.header .navbar-brand:hover {
+.navbar-brand:hover {
   color: turquoise !important;
+}
+
+.navbar-toggler {
+  margin-right: 3% !important;
 }
 
 /* about styles */
@@ -232,7 +242,7 @@ p {
 .app-container {
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  min-height: 100dvh;
 }
 
 .footer {
