@@ -24,7 +24,7 @@ function About() {
               In my free time, I enjoy cooking, playing new/old video games, and spending time with my friends and family.
             </p>
             <p className="p3">
-              You can download my resume <a href="public/resume.pdf" target="_blank" rel="noopener noreferrer">here</a>.
+              You can download my resume <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">here</a>.
             </p>
           </Col>
           <Col xs={12} md={4}>
