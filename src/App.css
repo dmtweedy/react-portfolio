@@ -30,7 +30,7 @@ p {
 
 .header .navbar-nav {
   margin-left: auto;
-  margin-right: 5%;
+  margin-right: 8% !important;
 }
 
 .header .nav-link {
@@ -278,7 +278,7 @@ p {
 
 .footer .navbar-text {
   margin-left: auto;
-  margin-right: 5%;
+  margin-right: 4%;
   color: green !important;
 }
 
